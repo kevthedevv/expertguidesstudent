@@ -1,8 +1,9 @@
 import styled from "styled-components"
 import cardImage from "../images/card.jpg"
 
-import {Button, P as Counter, SpaceBetweenDiv, CenterDiv} from '../styles'
+import {Button, P, SpaceBetweenDiv, CenterDiv} from '../styles'
 import { SpeedOutlined } from '@material-ui/icons'
+
 
 const Card = styled.div`
     height: 420px;
@@ -35,9 +36,15 @@ const Title = styled.h1`
    text-transform: uppercase;
    letter-spacing: 5px;
 `
+const DivColumn = styled.div`
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   justify-content: center;
+`
 
 
-const TestType = ({title, source, itemscount}) => {
+const TestType = ({title, source, itemscount, status}) => {
   return (
     <Card style={{margin: "10px"}}>
          <Info>
@@ -50,7 +57,10 @@ const TestType = ({title, source, itemscount}) => {
         </Info>
         <Image src={cardImage}/>
             <SpaceBetweenDiv style={{marginTop: "20px", padding: "0 10px 0 10px"}}>
-                <Counter>{itemscount}</Counter>
+                <DivColumn>
+                <P>{itemscount}</P>
+                <P>{status}</P>
+                </DivColumn>
                 <Button>Start</Button>
             </SpaceBetweenDiv>
     </Card> 

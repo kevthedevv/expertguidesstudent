@@ -42,8 +42,6 @@ const LoginContainer = styled.div`
 `
 const FormContainer = styled.div`
   margin-top: 20px;
-  
-  
 `
 const LogoContainer = styled.div`
     display: flex;
@@ -90,22 +88,22 @@ const Register = () => {
           </PageTitleContainer>
           <FormContainer>
             <P>Firstname</P>
-            <InputContainer style={{marginBottom: "20px"}}><Input></Input></InputContainer>
+            <InputContainer style={{marginBottom: "10px"}}><Input></Input></InputContainer>
             <P>Middlename</P>
-            <InputContainer style={{marginBottom: "20px"}}><Input></Input></InputContainer>
+            <InputContainer style={{marginBottom: "10px"}}><Input></Input></InputContainer>
             <P>Lastname</P>
-            <InputContainer style={{marginBottom: "20px"}}><Input></Input></InputContainer>
+            <InputContainer style={{marginBottom: "10px"}}><Input></Input></InputContainer>
             <P>Contact number</P>
-            <InputContainer style={{marginBottom: "20px"}}><Input></Input></InputContainer>
+            <InputContainer style={{marginBottom: "10px"}}><Input></Input></InputContainer>
             <P>Email address</P>
-            <InputContainer style={{marginBottom: "20px"}}><Input></Input></InputContainer>
+            <InputContainer style={{marginBottom: "10px"}}><Input></Input></InputContainer>
             <P>School</P>
-            <InputContainer style={{marginBottom: "20px"}}><Input></Input></InputContainer>
+            <InputContainer style={{marginBottom: "10px"}}><Input></Input></InputContainer>
             <CenterDiv><P style={{margin: "10px 0 10px 0"}}>Login information </P></CenterDiv>
             <P>Username</P>
-            <InputContainer style={{marginBottom: "20px"}}><Input></Input></InputContainer>
+            <InputContainer style={{marginBottom: "10px"}}><Input></Input></InputContainer>
             <P>Password</P>
-            <InputContainer style={{marginBottom: "20px"}}><Input></Input></InputContainer>
+            <InputContainer style={{marginBottom: "30px"}}><Input></Input></InputContainer>
             <Button style={{width: "300px"}}>Login</Button>
           </FormContainer>
         </Form>

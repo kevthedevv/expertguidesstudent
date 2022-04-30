@@ -17,7 +17,6 @@ export const CenterDiv = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    
 `
 export const LeftDiv = styled.div`
     display: flex;
@@ -44,7 +43,6 @@ export const SpaceBetweenDiv = styled.div`
     align-items: center;
     justify-content: space-between;
 `
-
 export const Input = styled.input`
     border: 0;
     background-color: transparent;
